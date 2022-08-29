@@ -1,0 +1,30 @@
+@charset "UTF-8"
+body
+{
+   font-family: Arial, Helvetica, sans-serif;
+   /* 
+   Medidas absolutas 
+   cm, mm, in, px, pt, pc
+
+   Medidas Relativas
+   em, ex, rem, vw, vh, %
+   Recomendado sempre utilizar as medidas px e em...
+   16px geralmente é = 1em 
+   */
+   font-size: 16px;
+}
+/*
+font: font-style -> font-weight -> font-size -> font-family
+*/
+h1{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    font: italic bold 3em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
